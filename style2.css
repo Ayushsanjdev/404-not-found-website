@@ -65,6 +65,7 @@
 	text-transform: uppercase;
 	width: 106px;
 	height: 39px;
+	margin: auto;
 }
 
 /*the footer part*/
@@ -91,7 +92,7 @@ footer  p {
 		height: auto;
 	}
 	#btn {
-		width: 100%;
+		width: 100% auto;
 	}
 }
 
