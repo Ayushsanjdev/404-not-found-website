@@ -1,0 +1,117 @@
+/*styling starts*/
+/*resetting*/
+
+html, body{
+	box-sizing: border-box;
+	margin: 0;
+	padding: 0;
+	font-family: 'Space Mono', monospace;
+	overflow: hidden;
+}
+
+/*logo or head or title part*/
+#main-head  {
+	padding: 10px 30px;
+	font-size: 10px;
+	letter-spacing: -3px;
+	width: 400px;
+	text-transform: uppercase;
+}
+
+/*whole body*/
+#container {
+	text-align: center;
+	padding: 0px 40px;
+	display: flex;
+	align-items: center;
+	margin-top: 60px;
+}
+
+/*image area styling*/
+#div-img  {
+	margin-right: 0;
+}
+
+/*right side text editing*/
+#right-div{
+	display: inline-flex;
+	flex-direction: column;
+	justify-content: center;
+	padding: 65px;
+}
+
+/*head of the right side*/
+.sec-head {
+	font-size: 2rem;
+	font-weight: bolder;
+	letter-spacing: -3px;
+	width: 100% auto;
+}
+
+/*the detils of the error*/
+
+.description {
+	width: 150px auto;
+	margin-top: 30px;
+	margin-bottom: 30px;
+	color: #4f4f4f;
+	font-size: 0.8rem;
+}
+
+/*button styling*/
+#btn {
+	background-color: #333;
+	color: #fff;
+	font-size: 0.4rem;
+	text-transform: uppercase;
+	width: 106px;
+	height: 39px;
+	margin: auto;
+}
+
+/*the footer part*/
+footer  p {
+	text-align: center;
+	color: #4f4f4f;
+	letter-spacing: -1px;
+	font-size: 0.5rem;
+}
+
+/*media queries for responsiveness*/
+
+@media only screen and (max-width: 790px) {
+	#container {
+		display: block;
+	}
+	#right-div .sec-head {
+		font-size: 1.5rem;
+		width: 150px auto;
+	}
+
+	.main-img {
+		width: 100% ;
+		height: auto;
+	}
+	#btn {
+		width: 100% auto;
+	}
+}
+
+@media only screen and (max-width: 940px) {
+	#container {
+		margin-top: 70px;
+		margin-left: 30px;
+	}
+}
+
+@media only screen and (min-width: 1000px) {
+	#container {
+		display: flex;
+		justify-content: center;
+	}
+	.description {
+		width: auto;
+	}
+}
+
+/*end of styling*
