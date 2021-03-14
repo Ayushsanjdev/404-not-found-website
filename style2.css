@@ -1,16 +1,17 @@
+/*styling starts*/
 /*resetting*/
 
-*, html, body{
+html, body{
 	box-sizing: border-box;
 	margin: 0;
 	padding: 0;
 	font-family: 'Space Mono', monospace;
-
+	overflow-x: hidden;
 }
 
 /*logo or head or title part*/
 #main-head  {
-	padding: 15px 35px;
+	padding: 10px 30px;
 	font-size: 10px;
 	letter-spacing: -3px;
 	width: 400px;
@@ -44,13 +45,13 @@
 	font-size: 2rem;
 	font-weight: bolder;
 	letter-spacing: -3px;
-	width: 100%;
+	width: 100% auto;
 }
 
 /*the detils of the error*/
 
 .description {
-	width:150px;
+	width: 150px auto;
 	margin-top: 30px;
 	margin-bottom: 30px;
 	color: #4f4f4f;
@@ -78,17 +79,17 @@ footer  p {
 
 /*media queries for responsiveness*/
 
-@media only screen and (max-width: 600px) {
+@media only screen and (max-width: 790px) {
 	#container {
 		display: block;
 	}
 	#right-div .sec-head {
-		font-size: 1.2rem;
-		width: 150px;
+		font-size: 1.5rem;
+		width: 150px auto;
 	}
 
 	.main-img {
-		width: 100%;
+		width: 100% ;
 		height: auto;
 	}
 	#btn {
