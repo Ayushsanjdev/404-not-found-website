@@ -81,6 +81,13 @@ body {
 	text-transform: uppercase;
 	width: 106px;
 	height: 39px;
+	cursor: pointer;
+}
+
+#btn:hover {
+	background-color: #ffa500;
+	border: transparent;
+	border-radius: 10px;
 }
 
 /*the footer part*/
